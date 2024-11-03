@@ -4,3 +4,4 @@ __pycache__/
 iris-env/
 # macos
 .DS_Store
+.env
