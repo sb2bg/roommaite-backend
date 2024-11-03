@@ -8,21 +8,15 @@ import numpy as np
 from torch_geometric.data import Data
 from torch_geometric.nn import GCNConv
 import os
-import time
-import random
 import json
 import sentence_transformers
 import openai as oai
-import csv
 import dotenv
 from tqdm.auto import tqdm
 import pandas as pd
 from numpy.linalg import norm
 from sklearn.cluster import KMeans
-from fakerFile import (
-    generate_fake_response,
-    required_questions,
-    optional_questions,
+from faker_file import (
     generate_fake_profile,
 )
 import networkx as nx
