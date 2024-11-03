@@ -15,7 +15,7 @@ password = "demo"
 app = FastAPI()
 
 
-# "CREATE TABLE users (uuid VARCHAR(255), answers VECTOR(DOUBLE, 384), prefs VECTOR(DOUBLE, 384))"
+# "CREATE TABLE users (uuid VARCHAR(255), location VARCHAR(255), answers VECTOR(DOUBLE, 384), prefs VECTOR(DOUBLE, 384))"
 
 
 @app.get("/find_matches/{prefs}/{n}/{location}")
